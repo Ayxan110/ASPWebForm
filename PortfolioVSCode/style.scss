@@ -1,0 +1,106 @@
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none ;
+}
+.hd-part{
+    background-color: black;
+    background: linear-gradient(to right,#0575E6,#00F260);
+    .hd-1{
+        .hd-logo{
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 25%;
+                }
+            }
+        }
+        .hd-nav{
+            display: flex;
+            ul{
+                margin: auto;
+                width: 70%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    a{
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .hd-contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 80%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                div{
+                    button{
+                        border-radius: 1em;
+                        background-color: #ffff;
+                        font-weight: 500;
+                        &:hover{
+                            background-color: #ce3232;
+                            transition-duration: .5s;
+                            color: #ffffff;
+                        }
+                    }
+                }
+                .hd-ico{
+                    i{
+                        cursor: pointer;
+                        color: #ffffff;
+                        &:hover{
+                            transition-duration: .5s;
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hd-2{
+        margin: auto;
+        padding: 3em;
+        width: 80%;
+        .a{
+            .b{
+                width: 80%;
+                h1{
+                    color: #ffffff;
+                    font-weight: 700;
+                }
+            }
+            div{
+                margin-top: 2em;
+
+                button{
+                    cursor: pointer;
+                    background-color: transparent;
+                    color: #ffffff;
+                    border: 2px solid #ffffff;
+                    border-radius: 1.5em;
+                    height: 3em;
+                    width: 10em;
+                    &:hover{
+                        background-color: orangered;
+                        transition-duration: .5s;
+                    }
+                }
+                span{
+                    color: #ffffff;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}

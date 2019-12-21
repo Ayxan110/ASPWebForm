@@ -1,0 +1,143 @@
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+.hd-part {
+  background-color: black;
+  background: -webkit-gradient(linear, left top, right top, from(#0575E6), to(#00F260));
+  background: linear-gradient(to right, #0575E6, #00F260);
+}
+
+.hd-part .hd-1 .hd-logo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .hd-1 .hd-logo div img {
+  width: 25%;
+}
+
+.hd-part .hd-1 .hd-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hd-part .hd-1 .hd-nav ul {
+  margin: auto;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .hd-1 .hd-nav ul li a {
+  font-weight: 500;
+  color: #fff;
+}
+
+.hd-part .hd-1 .hd-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .hd-1 .hd-contact div {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .hd-1 .hd-contact div div button {
+  border-radius: 1em;
+  background-color: #ffff;
+  font-weight: 500;
+}
+
+.hd-part .hd-1 .hd-contact div div button:hover {
+  background-color: #ce3232;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  color: #ffffff;
+}
+
+.hd-part .hd-1 .hd-contact div .hd-ico i {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.hd-part .hd-1 .hd-contact div .hd-ico i:hover {
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  color: black;
+}
+
+.hd-part .hd-2 {
+  margin: auto;
+  padding: 3em;
+  width: 80%;
+}
+
+.hd-part .hd-2 .a .b {
+  width: 80%;
+}
+
+.hd-part .hd-2 .a .b h1 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.hd-part .hd-2 .a div {
+  margin-top: 2em;
+}
+
+.hd-part .hd-2 .a div button {
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 1.5em;
+  height: 3em;
+  width: 10em;
+}
+
+.hd-part .hd-2 .a div button:hover {
+  background-color: orangered;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.hd-part .hd-2 .a div span {
+  color: #ffffff;
+  width: 70%;
+}
+/*# sourceMappingURL=style.css.map */
