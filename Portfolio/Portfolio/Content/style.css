@@ -1,0 +1,337 @@
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+.hd-part {
+  background-color: black;
+  background: -webkit-gradient(linear, left top, right top, from(#0575E6), to(#00F260));
+  background: linear-gradient(to right, #0575E6, #00F260);
+}
+
+.hd-part .hd-1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.hd-part .hd-1 .hd-logo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .hd-1 .hd-logo div img {
+  width: 25%;
+}
+
+.hd-part .hd-1 .hd-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hd-part .hd-1 .hd-nav ul {
+  margin: auto;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .hd-1 .hd-nav ul li a {
+  font-weight: 500;
+  color: #fff;
+}
+
+.hd-part .hd-1 .hd-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .hd-1 .hd-contact div {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .hd-1 .hd-contact div div button {
+  border-radius: 1em;
+  background-color: #ffff;
+  font-weight: 500;
+}
+
+.hd-part .hd-1 .hd-contact div div button:hover {
+  background-color: #ce3232;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  color: #ffffff;
+}
+
+.hd-part .hd-1 .hd-contact div .hd-ico i {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.hd-part .hd-1 .hd-contact div .hd-ico i:hover {
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  color: black;
+}
+
+.hd-part .hd-2 {
+  margin: auto;
+  padding: 3em;
+  width: 80%;
+}
+
+.hd-part .hd-2 .a .b {
+  width: 80%;
+}
+
+.hd-part .hd-2 .a .b h1 {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.hd-part .hd-2 .a div {
+  margin-top: 2em;
+}
+
+.hd-part .hd-2 .a div button {
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 1.5em;
+  height: 3em;
+  width: 10em;
+}
+
+.hd-part .hd-2 .a div button:hover {
+  background-color: orangered;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.hd-part .hd-2 .a div span {
+  color: #ffffff;
+  width: 70%;
+}
+
+.introduction {
+  padding: 2em;
+}
+
+.introduction .intro-about h2 {
+  font-weight: 400;
+  color: #393939;
+}
+
+.introduction .intro-about p {
+  margin-top: 2em;
+  color: #757575;
+}
+
+.introduction .intro-percentage .intro-pc-part {
+  padding: .5em;
+}
+
+.introduction .intro-percentage .intro-pc-part .progress {
+  height: 3px;
+}
+
+.introduction .intro-percentage .intro-pc-part div span {
+  color: #757575;
+  font-weight: 400;
+}
+
+.blog {
+  background-color: #f0f0f0;
+  padding: 2em;
+}
+
+.blog .row {
+  padding: 2em;
+}
+
+.blog .row .blog-el {
+  background-color: #ffffff;
+  padding: 1em;
+}
+
+.blog .row .blog-el .blog-img img {
+  height: auto;
+}
+
+.blog .row .blog-el div div {
+  margin-left: 0;
+}
+
+.blog .row .blog-el div div i {
+  color: #ce3232;
+}
+
+.blog .row .blog-el div div span {
+  color: #ce3232;
+  margin-left: 0.4em;
+  font-weight: 600;
+}
+
+.blog .row .blog-el div a {
+  color: #252525;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.blog .row .blog-el div p {
+  margin-top: 1em;
+  color: #757575;
+}
+
+.blog .row .blog-el div button {
+  border: none;
+  height: 3em;
+  background-color: #f0f0f0;
+  border-radius: 1.5em;
+  width: 10em;
+  color: #393939;
+}
+
+.blog .row .blog-el div button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#0575E6), to(#00F260));
+  background: linear-gradient(to right, #0575E6, #00F260);
+  color: #fff;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+.blog div h2 {
+  font-weight: 400;
+}
+
+.work .row .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #ce3232;
+}
+
+.work .row .container:hover .overlay {
+  opacity: .9;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.work .row .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.work .row .text p:nth-child(1) {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.work .row .text p:nth-child(2) {
+  color: #575757;
+  font-weight: 500;
+}
+
+.work .row .container {
+  cursor: pointer;
+}
+
+.work .row div h2 {
+  font-weight: 400;
+}
+
+.work div h2 {
+  font-weight: 400;
+}
+
+.contact {
+  background: -webkit-gradient(linear, left top, right top, from(#0575E6), to(#00F260));
+  background: linear-gradient(to right, #0575E6, #00F260);
+  padding: 2em;
+}
+
+.contact .contact-in button {
+  background-color: #ce3232;
+  color: #fff;
+  font-weight: 600;
+  width: 11em;
+  height: 3em;
+  border-radius: 1.4em;
+}
+
+.contact .row {
+  padding: .5em;
+}
+
+.contact div h2 {
+  font-weight: 400;
+  color: #fff;
+}
+
+.ft {
+  background-color: #3e3e3e;
+  padding: 2em;
+}
+
+.ft .row h2 {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.ft .row li {
+  margin-top: .5em;
+  color: #d9d9d9;
+  cursor: pointer;
+}
+
+.ft .row p {
+  color: #d9d9d9;
+}
+/*# sourceMappingURL=style.css.map */
