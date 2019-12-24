@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioWebFormV20", "PortfolioWebFormV2.0\PortfolioWebFormV20.csproj", "{EACD5054-BB91-4D3D-B091-E9F5A9E73986}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EACD5054-BB91-4D3D-B091-E9F5A9E73986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACD5054-BB91-4D3D-B091-E9F5A9E73986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACD5054-BB91-4D3D-B091-E9F5A9E73986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACD5054-BB91-4D3D-B091-E9F5A9E73986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BB9C9BE-067C-4DEE-ABBE-2A705E985570}
+	EndGlobalSection
+EndGlobal

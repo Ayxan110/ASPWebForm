@@ -7,9 +7,47 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Portfolio {
-    
-    
-    public partial class WebSite {
+namespace Portfolio
+{
+
+
+    public partial class WebSite
+    {
+
+        /// <summary>
+        /// introPhone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl introPhone;
+
+        /// <summary>
+        /// introTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl introTitle;
+
+        /// <summary>
+        /// introDesc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl introDesc;
+
+        /// <summary>
+        /// introImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage introImg;
     }
 }

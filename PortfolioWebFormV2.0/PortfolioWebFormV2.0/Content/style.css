@@ -1,0 +1,293 @@
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.hd-part {
+  background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+}
+
+.hd-part .row {
+  width: 65%;
+  margin: auto;
+}
+
+.hd-part .row .hd-logo img {
+  width: 12%;
+}
+
+.hd-part .row .hd-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hd-part .row .hd-nav li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.hd-part .row .hd-nav li a {
+  font-weight: 600;
+  color: #fff;
+}
+
+.hd-part .row .hd-nav li a:hover {
+  color: #111;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+.content {
+  background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+  padding: 2em;
+}
+
+.content .introduction .intro-wrt {
+  padding: 2em;
+}
+
+.content .introduction .intro-wrt div h1 {
+  font-weight: 300;
+  color: #fff;
+}
+
+.content .introduction .intro-wrt div h1 span {
+  font-weight: 600;
+}
+
+.content .introduction .intro-wrt div p:nth-child(2) {
+  font-weight: 300;
+  color: #fff;
+}
+
+.content .introduction .intro-wrt div p:nth-child(1) {
+  font-weight: 400;
+  color: #fff;
+}
+
+.content .introduction .intro-wrt div button {
+  border: none;
+  width: 10em;
+  font-weight: 600;
+  border-radius: 1em;
+  color: #111;
+  background-color: #fff;
+}
+
+.content .introduction .intro-wrt div button:hover {
+  background-color: #73a6fd;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  color: #fff;
+}
+
+.service {
+  padding: 1em;
+}
+
+.service .row {
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.service .row .service-elem div i {
+  font-size: 4em;
+}
+
+.service .row .service-elem div:nth-child(2) {
+  margin-top: 1em;
+}
+
+.service .row .service-elem div:nth-child(2) h5 {
+  font-weight: 700;
+  color: #111;
+}
+
+.service .row .service-elem div:nth-child(2) p {
+  color: #7ca9fd;
+  font-weight: 400;
+}
+
+.service div h2 {
+  font-weight: 700;
+  color: #7ca9fd;
+}
+
+.about {
+  background-color: #fff;
+  padding: 2em;
+}
+
+.about div h2 {
+  color: #7ca9fd;
+  font-weight: 700;
+}
+
+.about .row {
+  padding: 2em;
+  width: 80%;
+  margin: auto;
+}
+
+.about .row .about-percentage .perc-wrt p {
+  color: #73a6fd;
+  font-weight: 400;
+}
+
+.about .row .about-percentage .perc-wrt h3 {
+  color: #73a6fd;
+  font-weight: 600;
+}
+
+.about .row .about-percentage .perc-per .skill-bar {
+  margin-top: 1em;
+}
+
+.about .row .about-percentage .perc-per .skill-bar p {
+  color: #838584;
+  font-weight: 500;
+}
+
+.about .row .about-percentage .perc-per .skill-bar .progress {
+  height: 1em;
+}
+
+.about .row .about-percentage .perc-per .skill-bar .progress .progress-bar {
+  background: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+}
+
+.about .row .about-info div:nth-child(2) {
+  background-color: #fff;
+  padding: 1.5em;
+}
+
+.about .row .about-info div:nth-child(2) div #ab-name {
+  color: #73a6fd;
+  font-weight: 700;
+}
+
+.about .row .about-info div:nth-child(2) div p {
+  color: #73a6fd;
+  font-weight: 400;
+}
+
+.about .row .about-info div:nth-child(2) button {
+  border: 1px solid #111;
+  background-color: #7ca9fd;
+  width: 10em;
+  color: #fff;
+  border-radius: 1em;
+}
+
+.about .row .about-info div:nth-child(2) button:hover {
+  color: #111;
+  background-color: #fff;
+}
+
+.project {
+  background-color: #f9f9ff;
+  padding: 2em;
+}
+
+.project div {
+  margin-top: 1em;
+}
+
+.project div h2 {
+  color: #7ca9fd;
+  font-weight: 700;
+}
+
+.project .row {
+  padding: 2em;
+  width: 80%;
+  margin: auto;
+}
+
+.project .row .pro-el div p:nth-child(1) {
+  color: #111;
+  font-weight: 700;
+}
+
+.project .row .pro-el div p:nth-child(2) {
+  color: #73a6fd;
+  font-weight: 400;
+}
+
+.project .row .pro-el div button {
+  background-color: #8490ff;
+  border-radius: 1em;
+  color: #fff;
+  width: 10em;
+}
+
+.project .row .pro-el div button:hover {
+  color: #111;
+  background-color: #fff;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  border: 1px solid #8490ff;
+}
+
+.message {
+  padding: 2em;
+}
+
+.message div h2 {
+  color: #7ca9fd;
+  font-weight: 700;
+}
+
+.message .row {
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.message .row button {
+  background-color: #73a6fd;
+  color: #fff;
+  border-radius: 1.5em;
+  width: 10em;
+  height: 3em;
+  font-weight: 600;
+}
+
+.ft-part {
+  padding: 2em;
+  background-color: #222222;
+}
+
+.ft-part .row {
+  width: 80%;
+  margin: auto;
+}
+
+.ft-part .row h3 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.ft-part .row li {
+  color: #6f6e6f;
+}
+
+.ft-part .row p {
+  color: #6f6e6f;
+}
+
+.ft-part .row .social li {
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */

@@ -10,5 +10,7 @@ namespace Portfolio.Models
     {
         public MyDbContext() : base("myDb") { }
         public DbSet<Models.Tables.About> Infos { get; set; }
+        public DbSet<Models.Tables.Blog> Blogs { get; set; }
+        public DbSet<Models.Tables.Work> Works { get; set; }
     }
 }

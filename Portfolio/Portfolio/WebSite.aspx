@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebSite.aspx.cs" Inherits="Portfolio.WebSite" %>
-
+<%@ Import Namespace="Portfolio.Models" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -7,12 +7,13 @@
     <title></title>
     <link href="Content/style.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/92d6f9ab3e.js" crossorigin="anonymous"></script>
 </head>
     <header class="hd-part container-fluid">
         <div class="hd-1 row">
             <div class="hd-logo col-md-3">
                 <div>
-                    <img src="logo.png" alt="logo">
+                    <img src="/img/logo.png" alt="logo" />
                 </div>
             </div>
             <nav class="col-md-6 hd-nav">
@@ -44,7 +45,7 @@
                 </div>
                 <div>
                     <button class="btn btn-default">Start a project</button>
-                    <span>CALL ME (+99455) 655-05-11
+                    <span>CALL ME <span runat="server" id="introPhone"></span>
                         For any inquiry</span>
                 </div>
 
@@ -59,10 +60,8 @@
     <section class="container introduction">
         <div class="row">
             <div class="intro-about col-md-6">
-                <h2>Let me introduce</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis nostrum dicta architecto
-                    suscipit quas fugit. Est illo, cumque quod minima numquam libero distinctio in, excepturi maxime
-                    veniam quasi fugit.</p>
+                <h2 runat="server" id="introTitle"></h2>
+                <p runat="server" id="introDesc">.</p>
             </div>
             <div class="intro-percentage col-md-3">
                 <div class="intro-pc-part">
@@ -107,7 +106,7 @@
                 </div>
             </div>
             <div class="intro-photo col-md-3">
-                <img src="IMG-20191216-WA0004.jpg" alt="photo" style="width: 100%;">
+                <img runat="server" id="introImg" src="" alt="photo" style="width: 100%;"/>
             </div>
         </div>
     </section>
@@ -116,22 +115,28 @@
             <h2>My Blog</h2>
         </div>
         <div class="row" style="width: 80%; margin: auto">
-            <div class="blog-el col-md-6 d-flex">
-                <div class="blog-img" style="width: 45%;">
-                    <img src="depositphotos_69340187-stock-illustration-logo-a-letter-for-company.jpg" style="width: 100%;"
-                        alt="">
-                </div>
-                <div style="width: 54%;">
-                    <div class="text-left">
-                        <i class="fa fa-clock-o"></i>
-                        <span> December 22, 2045</span>
-                    </div>
-                    <a href="#">How To Find Out Beautiful Workspace.</a>
-                    <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                    <button class="btn btn-default">Read article</button>
-                </div>
-            </div>
-
+            <%
+                using (MyDbContext db = new MyDbContext())
+                {
+                    foreach (var item in db.Blogs)
+                    {
+                        Response.Write("<div class='blog-el col-md-6 d-flex'>" +
+                "<div class='blog-img' style='width: 45%;'>" +
+                    $"<img src='/img/{item.ImageName}' style='width: 100%;height: 100%;' alt='photo'>" +
+                "</div>" +
+                "<div style='width: 54%;'>" +
+                    "<div class='text-left'>" +
+                        $"<i class='{item.IconName}'></i>" +
+                        $"<span>{item.Date}</span>" +
+                    "</div>" +
+                    $"<a href='#'>{item.Title}</a>" +
+                    $"<p>{item.Description}</p>" +
+                    "<button class='btn btn-default'>Read article</button>" +
+                "</div>" +
+            "</div>");
+                    }
+                }
+                %>
         </div>
     </section>
     <section class="work container">
@@ -139,26 +144,31 @@
             <h2>My Work</h2>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <div class="container">
-                    <img src="depositphotos_69340187-stock-illustration-logo-a-letter-for-company.jpg" alt="Avatar"
-                        class="image" style="width: 100%;">
-                    <div class="overlay">
-                        <div class="text">
-                            <p>asjhsdhadhgdhashd</p>
-                            <p>fsdfsdfsd</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
+            <%
+                using (MyDbContext db = new MyDbContext())
+                {
+                    foreach (var item in db.Works)
+                    {
+                        Response.Write("<div class='col-md-3'>"+
+                        "<div class='container'>"+
+                        $"<img src='/img/{item.ImageName}' alt='Avatar' "+
+                        "class='image' style='width: 100%;'>"+
+                        "<div class='overlayy'>"+
+                        "<div class='text'>"+
+                        $"<p>{item.Title}</p>"+
+                        "</div>"+
+                        "</div>"+
+                        "</div>"+
+                        "</div>");
+                    }
+                }           
+            %>
         </div>
     </section>
     <section class="contact container-fluid">
         <div class="text-center">
-            <h2>Contact Me</h2>
+            <
+                h2>Contact Me</h2>
         </div>
         <div class="contact-in container">
             <div class="row">

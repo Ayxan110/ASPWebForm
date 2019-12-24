@@ -238,26 +238,6 @@ li {
   font-weight: 400;
 }
 
-.work .row .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-  background-color: #ce3232;
-}
-
-.work .row .container:hover .overlay {
-  opacity: .9;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
-}
-
 .work .row .text {
   color: white;
   font-size: 20px;
