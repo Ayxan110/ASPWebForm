@@ -73,3 +73,7 @@ C:\Users\Ayxan\source\repos\PortfolioWebFormV2.0\PortfolioWebFormV2.0\obj\Debug\
 C:\Users\Ayxan\source\repos\PortfolioWebFormV2.0\PortfolioWebFormV2.0\obj\Debug\PortfolioWebFormV20.csproj.CopyComplete
 C:\Users\Ayxan\source\repos\PortfolioWebFormV2.0\PortfolioWebFormV2.0\obj\Debug\PortfolioWebFormV2.0.dll
 C:\Users\Ayxan\source\repos\PortfolioWebFormV2.0\PortfolioWebFormV2.0\obj\Debug\PortfolioWebFormV2.0.pdb
+C:\Users\aykhanzd\Desktop\ASPWebForm\PortfolioWebFormV2.0\PortfolioWebFormV2.0\obj\Debug\PortfolioWebFormV20.csprojAssemblyReference.cache
+C:\Users\aykhanzd\Desktop\ASPWebForm\PortfolioWebFormV2.0\PortfolioWebFormV2.0\obj\Debug\PortfolioWebFormV2._0.Migrations.Initial.resources
+C:\Users\aykhanzd\Desktop\ASPWebForm\PortfolioWebFormV2.0\PortfolioWebFormV2.0\obj\Debug\PortfolioWebFormV20.csproj.GenerateResource.cache
+C:\Users\aykhanzd\Desktop\ASPWebForm\PortfolioWebFormV2.0\PortfolioWebFormV2.0\obj\Debug\PortfolioWebFormV20.csproj.CoreCompileInputs.cache

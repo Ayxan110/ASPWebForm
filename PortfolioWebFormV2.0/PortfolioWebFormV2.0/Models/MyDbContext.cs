@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace PortfolioWebFormV2._0.Models
+namespace PortfolioWebFormV20.Models
 {
     public class MyDbContext : DbContext
     {
